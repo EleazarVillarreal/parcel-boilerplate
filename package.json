@@ -1,0 +1,37 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "A Parcel, React, and TypeScript boilerplate to get up and running quick.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build ./src/index.html --out-dir build",
+    "format": "prettier \"src/**/*.{html,css,scss,js,ts,tsx}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EleazarVillarreal/parcel-boilerplate.git"
+  },
+  "author": "Eleazar Villarreal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EleazarVillarreal/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/EleazarVillarreal/parcel-boilerplate#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
