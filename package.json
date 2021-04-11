@@ -4,7 +4,8 @@
   "description": "A Parcel, React, and TypeScript boilerplate to get up and running quick.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
+    "dev": "parcel src/index.html",
+    "start": "parcel build/index.html",
     "build": "parcel build ./src/index.html --out-dir build",
     "format": "prettier \"src/**/*.{html,css,scss,js,ts,tsx}\" --write"
   },
