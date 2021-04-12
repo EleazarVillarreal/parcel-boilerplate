@@ -13,4 +13,5 @@ In the project directory run:
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Prettier](https://prettier.io/)
+- [Eslint](https://eslint.org/)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
